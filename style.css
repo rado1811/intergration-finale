@@ -1,0 +1,226 @@
+@font-face{
+    font-family: "aniron";
+    src: url('anicb___.ttf');
+}
+@font-face{
+    font-family: "party";
+    src: url('party.ttf');
+}
+@font-face{
+    font-family: "annatar";
+    src: url('tngan.ttf');
+}
+
+h2{
+    display: inline;
+}
+
+h4{
+    display: inline;
+}
+/***************************Navbar********************************/
+.navbar{
+    background: none;
+    background-color: orange;
+    margin: 0;
+    border: 0;
+}
+
+.navbar-collapse .navbar-nav li a{
+    font-size: 1.3vw;
+    background: none;
+    background-color: orange;
+    color: white;
+    font-family: "aniron";
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-collapse .navbar-nav .navbar-text{
+    background: none;
+    color: white;
+}
+
+.navbar-brand{
+    height: auto;
+    padding-right: 0px;
+    
+}
+.navbar-text{
+    margin-left: 5;
+    margin-right: 5;
+}
+
+/**************************Carousel*******************************/
+.carousel-caption{
+    font-family: "party";
+    bottom: 15%;
+    font-size: 4vw;
+}
+
+.carousel{
+    background: none;
+    background-color: black;
+    border-style: none;
+}
+
+/****************************Fellows text *****************************/
+
+#fellows {
+    text-align: justify;
+    font-family: "aniron";
+    background-image: url(_bg_light.png);
+    background-attachment: fixed;
+    padding: 30px;
+    display: block;
+}
+
+.orange {
+    background: none;
+    color: orange;
+}
+
+.annatar {
+    font-family: "annatar";
+    font-size: 1.5em;
+}
+
+/*****************************Pills**************************************/
+
+.nav-pills{
+    font-family: "aniron";
+    background-image: url(_bg_light.png);
+    background-attachment: fixed;
+    font-size: 1.5vw;
+}
+
+.center-pills{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-pills>li.active>a{
+    color: orange;
+    background-color: transparent;
+}
+
+.nav-pills>li.active>a:hover{
+    background-color: transparent;
+    background: none;
+    color: orange;
+    text-decoration: underline;
+}
+
+.nav-pills>li>a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+.nav-pills>li>a{
+    color: grey;
+}
+
+/****************************Thumbnails**********************************/
+
+.row{
+    background-image: url(_bg_light.png);
+    background-attachment: fixed;
+}
+
+.thumbnail{
+    background-color: black;
+    font-family: "party";
+}
+
+.reward{
+    position: absolute;
+    top:10%;
+    width:70%;
+    left:15%;
+    right:15%;
+    overflow: hidden;
+}
+
+.reward h3{
+    font-size: 2.5em;
+    height: 20%;
+    width: 100%;
+    padding: 8%;
+    text-align: center;
+    display: block;
+    border: 1px;  
+    border-radius: 15px;
+    background-color: white;
+    opacity: 0.7;
+    box-shadow: 0 0 5px 5px white; 
+}
+
+.reward h5{
+    margin-top: 50%;
+    font-size: 5em;
+    color: white;
+    text-align: center;
+}
+
+.caption h6 {
+    margin-left: 2%;
+    font-size: 3em;
+    color: white;
+}
+
+img {
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+}
+
+.thumbnail:hover img {
+    opacity: 1;
+}
+
+.thumbnail:hover h3 {
+    margin-top: -60%;
+    font-size: 1.5em;
+}
+
+.thumbnail:hover h5{
+    margin-top: 140%;
+    font-size: 3em;
+}
+
+.dead {
+    position: absolute;
+    left : 20%;
+    top: 10%;
+    right: 20%;
+    width: 60%;
+    overflow: hidden;
+}
+.dead h3{
+    font-size: 2.5em;
+    height: 20%;
+    width: 100%;
+    padding: 8%;
+    text-align: center;
+    display: block;
+}
+
+.dead h5{
+    margin-top: 70%;
+    font-size: 5em;
+    color: white;
+    text-align: center;
+}
+
+.outer {
+    color: orange;
+    text-decoration: line-through;
+}
+
+.inner {
+    color: white;
+}
+
+   
+    
+
